@@ -20,5 +20,9 @@ console.log('edad:', edad);
 
 // ------------------------------------------------------------------------------------
 console.log('Ejercicio 3 ---------------------');
-alumno.metodo1 = () => console.log(alumno.nombre + ' ' + alumno.apellido);
-alumno.metodo1();
+let alumno3 = { name: "Mario", apellido: "Elguera" };
+alumno3.metodo1 = function () {
+    console.log(this.name + ' ' + this.apellido);
+}
+
+alumno3.metodo1();
