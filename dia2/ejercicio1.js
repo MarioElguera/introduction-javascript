@@ -1,4 +1,4 @@
-console.log("Prueba de ejericios dia 2 - Introducción a JavaScript");
+console.log("Prueba de ejercicios - Dia 2 - Introducción a JavaScript");
 
 // ----------------------------------------------------------------------------
 let a = 3;
@@ -28,7 +28,7 @@ if (x > 50) {
 
 } else {
 
-    
+
     console.log("Esta entre 5 y 50");
 }
 
